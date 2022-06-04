@@ -6,6 +6,7 @@ import {
   useColorModeValue 
 } from '@chakra-ui/react'
 import Section from '../components/section'
+import Paragraph from '../components/paragraph'
 
 const Page = () => {
   return (
@@ -50,7 +51,7 @@ const Page = () => {
         <Heading as="h3" variant="section-title">
           Work
         </Heading>
-        <p>Paragraph</p>
+        <Paragraph>lorem ipsum </Paragraph>
       </Section>
     </Container>
   )
