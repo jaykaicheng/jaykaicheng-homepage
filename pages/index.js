@@ -11,6 +11,7 @@ import {
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import { BioSection, BioYear } from '../components/bio'
 
 const Page = () => {
   return (
@@ -57,18 +58,19 @@ const Page = () => {
         </Heading>
         <Paragraph>Jia is a recent graduate at the University at Buffalo and aspires to 
         become a web/software developer. He has a passion for building software, 
-        websites and solving problems. Offline, he loves playing volleyball, weightlifting, 
-        rock climbing and recently got into leetcoding. In his senior year he took many web 
-        development courses and created 
+        websites and solving problems. Offline, he spends his time playing volleyball, weightlifting
+        and recently got into leetcoding. In his senior year he took many web 
+        development courses and created{' '} 
           <NextLink href="/works/studyseeker">
-            <Link> Study Seeker </Link>
-          </NextLink>
-        in his Applied Human Computer Interaction and Interface Design class (CSE370) and 
+            <Link>Study Seeker</Link>
+          </NextLink> 
+        {' '}in his Applied Human Computer Interaction and Interface Design class (CSE370) and 
+        {' '}
           <NextLink href="/works/mosaicmaker">
-            <Link> Mosaic Maker </Link>
+            <Link>Mosaic Maker</Link>
           </NextLink>
-        in his Software Engineering class (CSE442). It was these projects that really inspired 
-        him to pursue a path in web/software development.
+        {' '} in his Software Engineering class (CSE442). These projects inspired 
+        him to pursue a career in web/software development.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works">
@@ -77,6 +79,43 @@ const Page = () => {
             </Button>
           </NextLink>
         </Box>
+      </Section>
+
+      <Section delay={0.2}>
+        <Heading as="h3" variant="section-title">
+          Bio
+        </Heading>
+        <BioSection>
+          <BioYear>1999</BioYear>
+          Born in Guangdong (广东), China.
+        </BioSection>
+        <BioSection>
+          <BioYear>2003</BioYear>
+          Immigrated to America.
+        </BioSection>
+        <BioSection>
+          <BioYear>2017</BioYear>
+          Graduated from Brooklyn Technical High School after majoring in Architecture.
+        </BioSection>
+        <BioSection>
+          <BioYear>2022</BioYear>
+          Completed Bachelors program in the Undergraduate School of Engineering and Applied Sciences 
+          from the University at Buffalo after majoring in Computer Science and minoring in Psychology.
+        </BioSection>
+        <BioSection>
+          <BioYear>Present</BioYear>
+          Searching for an opportunity to learn in a fast-paced and collaborative setting.
+        </BioSection>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I ♥
+        </Heading>
+        <Paragraph>
+          Volleyball, Bouldering, Weightlifting, Walks, Spending time with friends and family, Driving
+
+        </Paragraph>
       </Section>
     </Container>
   )
