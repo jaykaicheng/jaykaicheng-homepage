@@ -5,6 +5,7 @@ SimpleGrid,
 Divider 
 } from '@chakra-ui/react'
 import Section from '../components/section'
+import { WorkGridItem } from '../components/grid-item'
 
 const Works = () => {
   return (
@@ -15,6 +16,14 @@ const Works = () => {
       >
         Works
       </Heading>
+
+      <SimpleGrid columns={[1,1,2]} gap={6}>
+        <Section>
+          <WorkGridItem id="mosaic maker" title="Mosaic Maker" thumbnail={thumbMosaic}>
+            Generate mosaics 
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
     </Container>
   )
 }
