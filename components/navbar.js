@@ -74,6 +74,12 @@ const Navbar = props => {
           <LinkItem href="/leetcode" path={path}>
             Leetcode
           </LinkItem>
+          <NextLink href="https://github.com/jiahhou" passHref>
+            GitHub
+          </NextLink>
+          <NextLink href="https://www.linkedin.com/in/jiahhou/" passHref>
+            Linkedin
+          </NextLink>
         </Stack>
 
         <Box flex={1} align="right">

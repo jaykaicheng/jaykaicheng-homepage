@@ -106,7 +106,7 @@ const Page = () => {
           </BioSection>
           <BioSection>
             <BioYear>Present</BioYear>
-            Searching for an opportunity to learn in a fast-paced and collaborative setting.
+            Searching for an opportunity to learn in a fast-paced and collaborative environment.
           </BioSection>
         </Section>
 
