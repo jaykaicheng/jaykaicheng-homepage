@@ -25,7 +25,7 @@ const Works = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <WorkGridItem 
-              id="mosaic-maker" 
+              id="mosaic-maker"
               title="Mosaic Maker" 
               thumbnail={thumbMosaic}
             >
