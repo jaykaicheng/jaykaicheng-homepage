@@ -6,13 +6,22 @@ import {
   Image, 
   useColorModeValue, 
   Button,
-  Link
+  SimpleGrid,
+  List,
+  Link,
+  ListItem,
+  Icon
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
+import { GridItem } from '../components/grid-item'
+import {
+  IoLogoGithub,
+  IoLogoLinkedin
+} from 'react-icons/io5'
 
 const Page = () => {
   return (
@@ -25,7 +34,7 @@ const Page = () => {
           mb={6} 
           align="center"
         >
-      Hello, I&apos;m a front-end developer based in Brooklyn, New York!
+      Hello, I&apos;m an aspriring UX designer/front-end developer based in Brooklyn, New York!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -33,7 +42,7 @@ const Page = () => {
             <Heading as="h2" variant="page-title">
               Jia Hou
             </Heading>
-            <p>Developer ( Front-end / Full-stack / Software )</p>
+            <p>Developer ( Front-end / Full-stack / Software / UX )</p>
           </Box>
           <Box 
             flexShrink={0} 
@@ -60,19 +69,19 @@ const Page = () => {
           </Heading>
           <Paragraph>Jia is a recent graduate at the University at Buffalo and aspires to 
           become a web/software developer. He has a passion for building software, 
-          websites and solving problems. Offline, he spends his time playing volleyball, weightlifting
-          and recently got into leetcoding. In his senior year he took many web 
+          websites and solving problems. Offline, he spends his time playing volleyball and weightlifting. 
+           In his senior year he focused on web 
           development courses and created{' '} 
             <NextLink href="/works/studyseeker">
               <Link>Study Seeker</Link>
             </NextLink> 
-          {' '}in his Applied Human Computer Interaction and Interface Design class (CSE370) and 
+          {' '}in Applied Human Computer Interaction and Interface Design (CSE370) and 
           {' '}
             <NextLink href="/works/mosaicmaker">
               <Link>Mosaic Maker</Link>
             </NextLink>
-          {' '} in his Software Engineering class (CSE442). These projects inspired 
-          him to pursue a career in web/software development.
+          {' '}in Software Engineering (CSE442). These projects inspired 
+          him to pursue a career in web/software development or UX design.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -115,9 +124,39 @@ const Page = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Volleyball, Bouldering, Weightlifting, Walks, Spending time with friends and family, Driving
+            Volleyball, Bouldering, Weightlifting, Walks, Art, Music
 
           </Paragraph>
+        </Section>
+
+        <Section delay={0.3}>
+          <Heading as="h3" variant="section-title">
+            On the web
+          </Heading>
+          <List>
+            <ListItem>
+              <Link href="https://github.com/jiahhou" target="_blank">
+                <Button 
+                  variant="ghost" 
+                  colorScheme="teal" 
+                  leftIcon={<Icon as={IoLogoGithub} 
+                  />}>
+                    @jiahhou
+                </Button>
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link href="https://linkedin.com/in/jiahhou" target="_blank">
+                <Button 
+                  variant="ghost" 
+                  colorScheme="teal" 
+                  leftIcon={<Icon as={IoLogoLinkedin} 
+                  />}>
+                    @jiahhou
+                </Button>
+              </Link>
+            </ListItem>
+          </List>
         </Section>
       </Container>
     </Layout>

@@ -74,12 +74,12 @@ const Navbar = props => {
           <LinkItem href="/leetcode" path={path}>
             Leetcode
           </LinkItem>
-          <NextLink href="https://github.com/jiahhou" passHref>
+          {/* <NextLink href="https://github.com/jiahhou" passHref target="_blank">
             GitHub
           </NextLink>
-          <NextLink href="https://www.linkedin.com/in/jiahhou/" passHref>
+          <NextLink href="https://www.linkedin.com/in/jiahhou/" passHref target="_blank">
             Linkedin
-          </NextLink>
+          </NextLink> */}
         </Stack>
 
         <Box flex={1} align="right">
@@ -102,12 +102,12 @@ const Navbar = props => {
                 <NextLink href="/leetcode" passHref>
                   <MenuItem as={Link}>Leetcode</MenuItem>
                 </NextLink>
-                <NextLink href="https://github.com/jiahhou" passHref>
+                {/* <NextLink href="https://github.com/jiahhou" passHref target="_blank">
                   <MenuItem as={Link}>GitHub</MenuItem>
                 </NextLink>
-                <NextLink href="https://www.linkedin.com/in/jiahhou/" passHref>
+                <NextLink href="https://www.linkedin.com/in/jiahhou/" passHref target="_blank">
                   <MenuItem as={Link}>Linkedin</MenuItem>
-                </NextLink>
+                </NextLink> */}
               </MenuList>
             </Menu>
           </Box>
