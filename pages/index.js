@@ -10,7 +10,8 @@ import {
   List,
   Link,
   ListItem,
-  Icon
+  Icon,
+  chakra
 } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -23,7 +24,11 @@ import {
   IoLogoLinkedin
 } from 'react-icons/io5'
 
-const Page = () => {
+const ProfileImage = chakra(Image, {
+  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
+})
+
+const Home = () => {
   return (
     <Layout>
       <Container>
@@ -50,16 +55,24 @@ const Page = () => {
             ml={{md: 6}} 
             align="center"
           >
-            <Image 
+            <Box
               borderColor="whiteAlpha.800" 
               borderWidth={2} 
               borderStyle="solid" 
-              maxWidth="100px" 
+              w="100px"
+              h="100px" 
               display="inline-block" 
-              borderRadius="full" 
-              src="/images/jia.jpg" 
-              alt="Image of Jia"
-            />
+              borderRadius="full"
+              overflow="hidden" 
+            >
+              <ProfileImage
+                src="/images/jia.jpg"
+                alt="Image of Jia"
+                borderRadius="full"
+                width="100%"
+                height="100%"
+              />
+            </Box>
           </Box>
         </Box>
 
@@ -163,4 +176,5 @@ const Page = () => {
   )
 }
 
-export default Page
+export default Home
+export { getServerSideProps } from '../components/chakra'
