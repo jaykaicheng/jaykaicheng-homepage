@@ -22,7 +22,15 @@ const Work = () => {
           Study Seeker <Badge>2022</Badge>
         </Title>
         <Paragraph>
-          A social media web application created for students. Please use Login: jhhou@buffalo.edu testing123
+          A social media web application created for students to build a community to nurture 
+          growth and help students succeed. This application aligns academic interests and was 
+          created with responsiveness and accessibility in mind.
+          <br/>
+          Please use the login: 
+          <br/>
+          Email: jhhou@buffalo.edu 
+          <br/>
+          Password: testing123
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>

@@ -22,13 +22,22 @@ const Work = () => {
           Mosaic Maker <Badge>2022</Badge>
         </Title>
         <Paragraph>
-          A web application created for students
+          A web application created to create mosaicked images without the use or need 
+          of photoshop. This application is free and has no watermarks and due to deployment 
+          on heroku, the upload functionality is implemented. This project is still
+          being worked on as I am planning to rewrite the ReactJS code and do an overhaul.
+          <br/>
+          Please use the login: 
+          <br/>
+          USERNAME: jay
+          <br/>
+          PASSWORD: 123
         </Paragraph>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-              <Link href='https://webdev.cse.buffalo.edu/hci/teams/commitment/'>
-                https://webdev.cse.buffalo.edu/<ExternalLinkIcon mx="2px" />
+              <Link href='https://moker-test.herokuapp.com/'>
+              https://moker-test.herokuapp.com/<ExternalLinkIcon mx="2px" />
               </Link>
           </ListItem>
           <ListItem>
