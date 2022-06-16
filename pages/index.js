@@ -39,7 +39,7 @@ const Home = () => {
           mb={6} 
           align="center"
         >
-      Hello, I&apos;m an aspriring UX designer/front-end developer based in Brooklyn, New York!
+      Hello, I&apos;m an aspriring UX designer/front-end/full-stack developer based in Brooklyn, New York!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -85,12 +85,12 @@ const Home = () => {
           websites and solving problems. Offline, he spends his time playing volleyball and weightlifting. 
            In his senior year he focused on web 
           development courses and created{' '} 
-            <NextLink href="/works/studyseeker">
+            <NextLink href="/works/study-seeker">
               <Link>Study Seeker</Link>
             </NextLink> 
           {' '}in Applied Human Computer Interaction and Interface Design (CSE370) and 
           {' '}
-            <NextLink href="/works/mosaicmaker">
+            <NextLink href="/works/mosaic-maker">
               <Link>Mosaic Maker</Link>
             </NextLink>
           {' '}in Software Engineering (CSE442). These projects inspired 

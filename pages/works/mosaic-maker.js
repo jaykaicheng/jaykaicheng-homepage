@@ -23,9 +23,9 @@ const Work = () => {
         </Title>
         <Paragraph>
           A web application created to create mosaicked images without the use or need 
-          of photoshop. This application is free and has no watermarks and due to deployment 
-          on heroku, the upload functionality is implemented. This project is still
-          being worked on as I am planning to rewrite the ReactJS code and do an overhaul.
+          of photoshop. This application is free and has no watermarks but due to deployment 
+          on heroku, the upload is not functional but keyword and random works. This project is still
+          under development as I am planning to rewrite the frontend.
           <br/>
           Please use the login: 
           <br/>
@@ -55,6 +55,11 @@ const Work = () => {
               </Link>
           </ListItem>
         </List>
+
+        <WorkImage src="/images/works/mosaicmaker_01.PNG" alt="Mosaic Maker Splash Page"/>
+        <WorkImage src="/images/works/mosaicmaker_02.PNG" alt="Mosaic Maker Home Page" />
+        <WorkImage src="/images/works/mosaicmaker_03.PNG" alt="Mosaic Maker Profile Page" />
+        <WorkImage src="/images/works/mosaicmaker_04.PNG" alt="Mosaic Maker Image Page" />
       </Container>
     </Layout>
   )
