@@ -9,6 +9,7 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbMosaic from '../public/images/mosaic-maker.png'
 import thumbStudy from '../public/images/study-seeker.png'
+import thumbParking from '../public/images/buffparking.png'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
@@ -36,6 +37,7 @@ const Works = () => {
               Generate mosaic images without knowledge of photo-editing skills for free and without watermarks
             </WorkGridItem>
           </Section>
+
           <Section>
             <WorkGridItem 
               id="study-seeker" 
@@ -47,6 +49,31 @@ const Works = () => {
               Social media platform to build a student community, nurturing growth and helping students succeed by aligning academic interests and goals
             </WorkGridItem>
           </Section>
+
+          <Section>
+            <WorkGridItem 
+              id="bullboard" 
+              title="Bullboard" 
+              thumbnail={thumbStudy}
+            >
+              <strong>CSE 312 (Web Applications)</strong>
+              <br/>
+              Social media platform to build a student community, nurturing growth and helping students succeed by aligning academic interests and goals
+            </WorkGridItem>
+          </Section>
+
+          <Section>
+            <WorkGridItem 
+              id="buff-parking" 
+              title="Buffalo Parking Data" 
+              thumbnail={thumbParking}
+            >
+              <strong>CSE 115 (Computer Science I)</strong>
+              <br/>
+              Map parking data pulled from Open Data Buffalo to discover and find trends in parking violations based on day of month, district, number of tows per month and why
+            </WorkGridItem>
+          </Section>
+
         </SimpleGrid>
       </Container>
     </Layout>
