@@ -16,7 +16,7 @@ import Layout from '../../components/layouts/article'
 
 const Work = () => {
   return (
-    <Layout title="Mosaic Maker">
+    <Layout title="Buffalo Parking Data">
       <Container>
         <Title>
           Buffalo Parking Data <Badge>2020</Badge>

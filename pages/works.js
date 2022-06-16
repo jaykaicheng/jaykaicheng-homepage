@@ -52,18 +52,6 @@ const Works = () => {
 
           <Section>
             <WorkGridItem 
-              id="bullboard" 
-              title="Bullboard" 
-              thumbnail={thumbStudy}
-            >
-              <strong>CSE 312 (Web Applications)</strong>
-              <br/>
-              Social media platform to build a student community, nurturing growth and helping students succeed by aligning academic interests and goals
-            </WorkGridItem>
-          </Section>
-
-          <Section>
-            <WorkGridItem 
               id="buff-parking" 
               title="Buffalo Parking Data" 
               thumbnail={thumbParking}
