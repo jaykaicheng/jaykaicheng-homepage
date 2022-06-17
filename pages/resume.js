@@ -8,15 +8,11 @@ import Section from '../components/section'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
+import { Document, Page, pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 const Resume = () => {
-  const [numPages, setNumPages] = useState(null);
-  const [pageNumber, setPageNumber] = useState(1);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
+  const [pageNumber] = useState(1);
 
   return (
     <Layout>
@@ -31,12 +27,9 @@ const Resume = () => {
         </Heading>
       
         <div>
-          <Document file="../public/Resume.pdf" onLoadSuccess={onDocumentLoadSuccess}>
+          <Document file="Resume.pdf" >
             <Page pageNumber={pageNumber} />
           </Document>
-          <p>
-            Page {pageNumber} of {numPages}
-          </p>
         </div>
         
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
