@@ -6,7 +6,6 @@ import {
   Image, 
   useColorModeValue, 
   Button,
-  SimpleGrid,
   List,
   Link,
   ListItem,
@@ -18,7 +17,7 @@ import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
-import { GridItem } from '../components/grid-item'
+// import { GridItem } from '../components/grid-item'
 import {
   IoLogoGithub,
   IoLogoLinkedin

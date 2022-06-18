@@ -26,11 +26,11 @@ const Resume = () => {
           Resume
         </Heading>
       
-        <div>
+        <Paragraph>
           <Document file="Resume.pdf" >
             <Page pageNumber={pageNumber} />
           </Document>
-        </div>
+        </Paragraph>
         
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
