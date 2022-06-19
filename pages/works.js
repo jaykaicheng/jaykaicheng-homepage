@@ -7,9 +7,9 @@ SimpleGrid,
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import thumbMosaic from '../public/images/mosaic-maker.PNG'
-import thumbStudy from '../public/images/study-seeker.PNG'
-import thumbParking from '../public/images/buffparking.PNG'
+import thumbMosaic from '../public/images/mosaic-maker.png'
+import thumbStudy from '../public/images/study-seeker.png'
+import thumbParking from '../public/images/buffparking.png'
 import Layout from '../components/layouts/article'
 
 const Works = () => {
