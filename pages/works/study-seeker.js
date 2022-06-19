@@ -61,10 +61,10 @@ const Work = () => {
           </ListItem>
         </List>
 
-        <WorkImage src="/images/works/studyseeker_01.PNG" alt="Study Seeker Splash Page"/>
-        <WorkImage src="/images/works/studyseeker_02.PNG" alt="Study Seeker Home Page" />
-        <WorkImage src="/images/works/studyseeker_03.PNG" alt="Study Seeker Class Page" />
-        <WorkImage src="/images/works/studyseeker_04.PNG" alt="Study Seeker Connections Page" />
+        <WorkImage src="/images/works/studyseeker_01.png" alt="Study Seeker Splash Page"/>
+        <WorkImage src="/images/works/studyseeker_02.png" alt="Study Seeker Home Page" />
+        <WorkImage src="/images/works/studyseeker_03.png" alt="Study Seeker Class Page" />
+        <WorkImage src="/images/works/studyseeker_04.png" alt="Study Seeker Connections Page" />
       </Container>
     </Layout>
   )

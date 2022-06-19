@@ -47,9 +47,9 @@ const Work = () => {
           </ListItem>
         </List>
 
-        <WorkImage src="/images/works/buffparking_01.PNG" alt="Buffalo Parking Tows by Day of the Month"/>
-        <WorkImage src="/images/works/buffparking_02.PNG" alt="Buffalo Parking Tows by District" />
-        <WorkImage src="/images/works/buffparking_03.PNG" alt="Buffalo Parking Number of Tows by Month and Description" />
+        <WorkImage src="/images/works/buffparking_01.png" alt="Buffalo Parking Tows by Day of the Month"/>
+        <WorkImage src="/images/works/buffparking_02.png" alt="Buffalo Parking Tows by District" />
+        <WorkImage src="/images/works/buffparking_03.png" alt="Buffalo Parking Number of Tows by Month and Description" />
       </Container>
     </Layout>
   )
