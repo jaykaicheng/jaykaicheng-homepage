@@ -56,10 +56,10 @@ const Work = () => {
           </ListItem>
         </List>
 
-        <WorkImage src="/images/works/mosaicmaker_01.png" alt="Mosaic Maker Splash Page"/>
-        <WorkImage src="/images/works/mosaicmaker_02.png" alt="Mosaic Maker Home Page" />
-        <WorkImage src="/images/works/mosaicmaker_03.png" alt="Mosaic Maker Profile Page" />
-        <WorkImage src="/images/works/mosaicmaker_04.png" alt="Mosaic Maker Image Page" />
+        <WorkImage src="/images/works/mosaicmaker_01.PNG" alt="Mosaic Maker Splash Page"/>
+        <WorkImage src="/images/works/mosaicmaker_02.PNG" alt="Mosaic Maker Home Page" />
+        <WorkImage src="/images/works/mosaicmaker_03.PNG" alt="Mosaic Maker Profile Page" />
+        <WorkImage src="/images/works/mosaicmaker_04.PNG" alt="Mosaic Maker Image Page" />
       </Container>
     </Layout>
   )
