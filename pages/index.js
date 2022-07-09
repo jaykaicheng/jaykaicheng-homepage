@@ -126,8 +126,8 @@ const Home = () => {
             from the University at Buffalo after majoring in Computer Science and minoring in Psychology.
           </BioSection>
           <BioSection>
-            <BioYear>Present</BioYear>
-            Searching for an opportunity to learn in a fast-paced and collaborative environment.
+            <BioYear>2022</BioYear>
+            Began work as an Intern at Lightpath
           </BioSection>
         </Section>
 
