@@ -13,9 +13,6 @@ import {
 } from '../../components/work'
 import Paragraph from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
-import buffparking1 from '../../public/images/works/buffparking_01.png'
-import buffparking2 from '../../public/images/works/buffparking_02.png'
-import buffparking3 from '../../public/images/works/buffparking_03.png'
 
 const Work = () => {
   return (
@@ -50,9 +47,9 @@ const Work = () => {
           </ListItem>
         </List>
 
-        <WorkImage src={buffparking1} alt="Buffalo Parking Tows by Day of the Month"/>
-        <WorkImage src={buffparking2} alt="Buffalo Parking Tows by District" />
-        <WorkImage src={buffparking3} alt="Buffalo Parking Number of Tows by Month and Description" />
+        <WorkImage src="/images/works/buffparking_01.png" alt="Buffalo Parking Tows by Day of the Month"/>
+        <WorkImage src="/images/works/buffparking_02.png" alt="Buffalo Parking Tows by District" />
+        <WorkImage src="/images/works/buffparking_03.png" alt="Buffalo Parking Number of Tows by Month and Description" />
       </Container>
     </Layout>
   )
