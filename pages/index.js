@@ -17,7 +17,6 @@ import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
-// import { GridItem } from '../components/grid-item'
 import {
   IoLogoGithub,
   IoLogoLinkedin
@@ -38,7 +37,7 @@ const Home = () => {
           mb={6} 
           align="center"
         >
-      Hello, I&apos;m an aspriring UX designer/front-end/full-stack developer based in Brooklyn, New York!
+      Hello, I&apos;m an aspriring front-end/full-stack developer based in Brooklyn, New York!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -46,7 +45,7 @@ const Home = () => {
             <Heading as="h2" variant="page-title">
               Jia Hou
             </Heading>
-            <p>Developer ( Front-end / Full-stack / Software / UX )</p>
+            <p>Developer ( Front-End / Full-Stack / Software)</p>
           </Box>
           <Box 
             flexShrink={0} 
@@ -81,7 +80,7 @@ const Home = () => {
           </Heading>
           <Paragraph>Jia is a recent graduate at the University at Buffalo and aspires to 
           become a web/software developer. He has a passion for building software, 
-          websites and solving problems. Offline, he spends his time playing volleyball and weightlifting. 
+          websites and solving problems. Offline, he spends his time playing volleyball and snowboarding. 
            In his senior year he focused on web 
           development courses and created{' '} 
             <NextLink href="/works/study-seeker">
@@ -93,7 +92,10 @@ const Home = () => {
               <Link>Mosaic Maker</Link>
             </NextLink>
           {' '}in Software Engineering (CSE442). These projects inspired 
-          him to pursue a career in web/software development or UX design.
+          him to pursue a career in web/software development. 
+          He is currently working as a Full-Stack Developer Intern at 
+          <Link href="https://lightpathfiber.com/" target="_blank"> Lightpath</Link> and 
+          working on his AWS certifications.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
