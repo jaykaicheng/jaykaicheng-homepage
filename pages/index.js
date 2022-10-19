@@ -45,7 +45,7 @@ const Home = () => {
             <Heading as="h2" variant="page-title">
               Jia Hou
             </Heading>
-            <p>Developer ( Front-End / Full-Stack / Software)</p>
+            <p>( Front-End / Full-Stack / Software ) Developer</p>
           </Box>
           <Box 
             flexShrink={0} 
@@ -79,7 +79,7 @@ const Home = () => {
             Bio
           </Heading>
           <Paragraph>Jia is a recent graduate at the University at Buffalo and aspires to 
-          become a web/software developer. He has a passion for building software, 
+          become a web developer/software engineer. He has a passion for building software, 
           websites and solving problems. Offline, he spends his time playing volleyball and snowboarding. 
            In his senior year he focused on web 
           development courses and created{' '} 
@@ -95,7 +95,7 @@ const Home = () => {
           him to pursue a career in web/software development. 
           He is currently working as a Full-Stack Developer Intern at 
           <Link href="https://lightpathfiber.com/" target="_blank"> Lightpath</Link> and 
-          working on his AWS certifications.
+          working on his AWS certification.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
