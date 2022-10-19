@@ -76,7 +76,7 @@ const Home = () => {
 
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Work
+            Bio
           </Heading>
           <Paragraph>Jia is a recent graduate at the University at Buffalo and aspires to 
           become a web/software developer. He has a passion for building software, 
@@ -108,7 +108,7 @@ const Home = () => {
 
         <Section delay={0.2}>
           <Heading as="h3" variant="section-title">
-            Bio
+            Timeline
           </Heading>
           <BioSection>
             <BioYear>1999</BioYear>
@@ -124,12 +124,12 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Completed Bachelors program in the Undergraduate School of Engineering and Applied Sciences 
-            from the University at Buffalo after majoring in Computer Science and minoring in Psychology.
+            Completed Bachelors program for Computer Science in the Undergraduate School of Engineering and Applied Sciences 
+            at the University at Buffalo.
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Began work as an Intern at Lightpath
+            Began work as an Full-Stack Developer Intern at Lightpath
           </BioSection>
         </Section>
 
@@ -138,7 +138,7 @@ const Home = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Volleyball, Bouldering, Weightlifting, Walks, Art, Music
+            Volleyball, Bouldering, Weightlifting, Walks, Snowboarding, Music
 
           </Paragraph>
         </Section>
