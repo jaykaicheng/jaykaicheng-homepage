@@ -23,9 +23,10 @@ const Work = () => {
         </Title>
         <Paragraph>
           A web application created to create mosaicked images without the use or need 
-          of photoshop. This application is free and has no watermarks but due to deployment 
-          on heroku, the upload is not functional but keyword and random works. This project is still
-          under development as I am planning to rewrite the frontend.
+          of photoshop. This application is free and has no watermarks but the 
+          images are currently not permanently saved due to Heroku&apos;s ephemeral disk. 
+          This project is still under development as I am planning to rewrite the frontend 
+          to allow for responsiveness, guest access, and AWS S3 for permanent images.
           <br/>
           Please use the login: 
           <br/>
@@ -52,6 +53,12 @@ const Work = () => {
             <Meta>Figma</Meta>
               <Link href='https://www.figma.com/file/hwsv7GxeNLCfVk1SKyU8RT/Mosaic'>
                 https://www.figma.com/Mosaic-Maker<ExternalLinkIcon mx="2px" />
+              </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Source</Meta>
+              <Link href='https://github.com/jiahhou/Mosaic-Maker/tree/heroku-test2'>
+              https://github.com/jiahhou/Mosaic-Maker/<ExternalLinkIcon mx="2px" />
               </Link>
           </ListItem>
         </List>

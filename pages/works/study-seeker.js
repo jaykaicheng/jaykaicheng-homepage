@@ -23,8 +23,9 @@ const Work = () => {
         </Title>
         <Paragraph>
           A social media web application created for students to build a community to nurture 
-          growth and help students succeed. This application aligns academic interests and was 
-          created with responsiveness and accessibility in mind.
+          growth and help students succeed. This application was created with responsiveness 
+          and accessibility in mind with the oversight of a now Project Manager at Meta who 
+          served as our scrum master in an agile environment.
           <br/>
           Please use the login: 
           <br/>
@@ -57,6 +58,12 @@ const Work = () => {
             <Meta>Usability Tests</Meta>
               <Link href='https://docs.google.com/document/d/1UItOgQbJtekWVZZ4_glwQSSKhyy1p5p7wbzjaTXWd8k/edit?usp=sharing'>
                 https://docs.google.com/Study-Seeker<ExternalLinkIcon mx="2px" />
+              </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Source</Meta>
+              <Link href='https://github.com/tommyxchow/study-seeker'>
+              https://github.com/tommyxchow/study-seeker<ExternalLinkIcon mx="2px" />
               </Link>
           </ListItem>
         </List>
