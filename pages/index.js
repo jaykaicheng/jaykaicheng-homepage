@@ -138,8 +138,7 @@ const Home = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Volleyball, Bouldering, Weightlifting, Walks, Snowboarding, Music
-
+            Volleyball, Bouldering, Weightlifting, Snowboarding, Music, Long walks on the beach 
           </Paragraph>
         </Section>
 
