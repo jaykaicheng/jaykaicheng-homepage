@@ -93,8 +93,8 @@ const Home = () => {
             </NextLink>
           {' '}in Software Engineering (CSE442). These projects inspired 
           him to pursue a career in web/software development. 
-          He is currently working as a Full-Stack Developer Intern at 
-          <Link href="https://lightpathfiber.com/" target="_blank"> Lightpath</Link> and 
+          He is currently working as a contractor at 
+          <Link href="https://lightpathfiber.com/" target="_blank"> Lightpath</Link> after interning and 
           working on his AWS certification.
           </Paragraph>
           <Box align="center" my={4}>
