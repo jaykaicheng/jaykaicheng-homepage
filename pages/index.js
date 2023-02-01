@@ -37,7 +37,7 @@ const Home = () => {
           mb={6} 
           align="center"
         >
-      Hello, I&apos;m an aspriring front-end/full-stack developer based in Brooklyn, New York!
+      Hello, I&apos;m an aspiring front-end/full-stack developer based in Brooklyn, New York!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -130,6 +130,10 @@ const Home = () => {
           <BioSection>
             <BioYear>2022</BioYear>
             Began work as an Full-Stack Developer Intern at Lightpath
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Began contract work as a Software Engineer at Lightpath via TEKsystems
           </BioSection>
         </Section>
 
