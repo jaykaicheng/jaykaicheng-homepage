@@ -37,7 +37,7 @@ const Home = () => {
           mb={6} 
           align="center"
         >
-      Hello, I&apos;m an aspiring front-end/full-stack developer based in Brooklyn, New York!
+      Hello, I&apos;m a front-end/full-stack developer based in Brooklyn, New York! 
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -45,7 +45,8 @@ const Home = () => {
             <Heading as="h2" variant="page-title">
               Jia Hou
             </Heading>
-            <p>( Front-End / Full-Stack / Software ) Developer</p>
+            <p>( Full-Stack / Software ) Developer <br/>
+            Cybersecurity Analyst</p>
           </Box>
           <Box 
             flexShrink={0} 
@@ -78,9 +79,9 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
-          <Paragraph>Jia is a recent graduate at the University at Buffalo and aspires to 
-          become a web developer/software engineer. He has a passion for building software, 
-          websites and solving problems. Offline, he spends his time playing volleyball and snowboarding. 
+          <Paragraph>Jia graduated from the University at Buffalo and aspires to 
+          become a cybersecurity analyst. He has a passion for building software,
+          websites, cybersecurity,  and solving problems. Offline, he spends his time playing volleyball, pickleball,  and snowboarding. 
            In his senior year he focused on web 
           development courses and created{' '} 
             <NextLink href="/works/study-seeker">
@@ -95,7 +96,8 @@ const Home = () => {
           him to pursue a career in web/software development. 
           He is currently working as a contractor at 
           <Link href="https://lightpathfiber.com/" target="_blank"> Lightpath</Link> after interning and 
-          working on his AWS certification.
+          working on his AWS and Sec+ certification. He plans on starting his Masters in Computer Science at Georgia Tech
+           part-time starting in Spring 2024.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -129,11 +131,19 @@ const Home = () => {
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Began work as an Full-Stack Developer Intern at Lightpath
+            Began work as an Full-Stack Developer Intern at Lightpath.
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            Began contract work as a Software Engineer at Lightpath via TEKsystems
+            Began contract work as a Software Engineer at Lightpath via TEKsystems.
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Naturalized as a US Citizen.
+          </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
+            Started Masters of Computer Science in the College of Computing at Georgia Institute of Technology.
           </BioSection>
         </Section>
 
@@ -142,7 +152,7 @@ const Home = () => {
             I ♥
           </Heading>
           <Paragraph>
-            Volleyball, Bouldering, Weightlifting, Snowboarding, Music, Long walks on the beach 
+            Volleyball, Bouldering, Weightlifting, Snowboarding, Pickleball, Music, Hiking, National Parks 
           </Paragraph>
         </Section>
 
