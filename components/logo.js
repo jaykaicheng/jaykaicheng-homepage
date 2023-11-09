@@ -33,7 +33,7 @@ const Logo = () => {
 						fontFamily='M PLUS Rounded 1c'
 						fontWeight="bold"
 						ml={3}>
-							Jia Hou
+							Jay Cheng
 						</Text>
 				</LogoBox>
 			</a>

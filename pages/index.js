@@ -37,16 +37,16 @@ const Home = () => {
           mb={6} 
           align="center"
         >
-      Hello, I&apos;m a front-end/full-stack developer based in Brooklyn, New York! 
+      Hello, I&apos;m a software engineer based in Brooklyn, New York! Open to relocation!
         </Box>
 
         <Box display={{md:'flex'}}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Jia Hou
+              Jay Cheng
             </Heading>
-            <p>( Full-Stack / Software ) Developer <br/>
-            Cybersecurity Analyst</p>
+            <p>Software Engineer <br/>
+            Aspiring Data Engineer/Scientist</p>
           </Box>
           <Box 
             flexShrink={0} 
@@ -79,8 +79,8 @@ const Home = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
-          <Paragraph>Jia graduated from the University at Buffalo and aspires to 
-          become a cybersecurity analyst. He has a passion for building software,
+          <Paragraph>Jay graduated from the University at Buffalo and aspires to 
+          work in Machine Learning. He has a passion for building software,
           websites, cybersecurity,  and solving problems. Offline, he spends his time playing volleyball, pickleball,  and snowboarding. 
            In his senior year he focused on web 
           development courses and created{' '} 
@@ -96,7 +96,7 @@ const Home = () => {
           him to pursue a career in web/software development. 
           He is currently working as a contractor at 
           <Link href="https://lightpathfiber.com/" target="_blank"> Lightpath</Link> after interning and 
-          working on his AWS and Sec+ certification. He plans on starting his Masters in Computer Science at Georgia Tech
+          is working on his AWS and Sec+ certification. He plans on starting his Masters in Computer Science at Georgia Tech
            part-time starting in Spring 2024.
           </Paragraph>
           <Box align="center" my={4}>
