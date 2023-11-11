@@ -81,8 +81,8 @@ const Home = () => {
           </Heading>
           <Paragraph>Jay graduated from the University at Buffalo and aspires to 
           work in Machine Learning. He has a passion for building software,
-          websites, cybersecurity,  and solving problems. Offline, he spends his time playing volleyball, pickleball,  and snowboarding. 
-           In his senior year he focused on web 
+          websites, cloud, DevOps,  and solving problems. Offline, he spends his time playing volleyball, pickleball,  and snowboarding. 
+           In his senior year, he focused on web 
           development courses and created{' '} 
             <NextLink href="/works/study-seeker">
               <Link>Study Seeker</Link>
@@ -94,10 +94,10 @@ const Home = () => {
             </NextLink>
           {' '}in Software Engineering (CSE442). These projects inspired 
           him to pursue a career in web/software development. 
-          He is currently working as a contractor at 
-          <Link href="https://lightpathfiber.com/" target="_blank"> Lightpath</Link> after interning and 
-          is working on his AWS and Sec+ certification. He plans on starting his Masters in Computer Science at Georgia Tech
-           part-time starting in Spring 2024.
+          He is currently contracted as a Software Engineer at {' '}
+          <Link href="https://lightpathfiber.com/" target="_blank">Lightpath</Link> after interning and 
+          is working on his AWS and Azure certification. He is starting his Masters in Computer Science at Georgia Tech
+           part-time in Spring 2024.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
