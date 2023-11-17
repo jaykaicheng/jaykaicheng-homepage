@@ -41,8 +41,8 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-              <Link href='https://github.com/jiahhou/Buffalo-Parking-Data'>
-              https://github.com/jiahhou/Buffalo-Parking-Data<ExternalLinkIcon mx="2px" />
+              <Link href='https://github.com/jaykcheng/Buffalo-Parking-Data'>
+              https://github.com/jaykcheng/Buffalo-Parking-Data<ExternalLinkIcon mx="2px" />
               </Link>
           </ListItem>
         </List>

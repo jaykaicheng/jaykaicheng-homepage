@@ -162,24 +162,24 @@ const Home = () => {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/jiahhou" target="_blank">
+              <Link href="https://github.com/jaykcheng" target="_blank">
                 <Button 
                   variant="ghost" 
                   colorScheme="teal" 
                   leftIcon={<Icon as={IoLogoGithub} 
                   />}>
-                    @jiahhou
+                    @jaykcheng
                 </Button>
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://linkedin.com/in/jiahhou" target="_blank">
+              <Link href="https://linkedin.com/in/jaykcheng" target="_blank">
                 <Button 
                   variant="ghost" 
                   colorScheme="teal" 
                   leftIcon={<Icon as={IoLogoLinkedin} 
                   />}>
-                    @jiahhou
+                    @jaykcheng
                 </Button>
               </Link>
             </ListItem>

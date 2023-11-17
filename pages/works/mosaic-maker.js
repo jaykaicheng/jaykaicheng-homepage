@@ -57,8 +57,8 @@ const Work = () => {
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>
-              <Link href='https://github.com/jiahhou/Mosaic-Maker/tree/heroku-test2'>
-              https://github.com/jiahhou/Mosaic-Maker/<ExternalLinkIcon mx="2px" />
+              <Link href='https://github.com/jaykcheng/Mosaic-Maker/tree/heroku-test2'>
+              https://github.com/jaykcheng/Mosaic-Maker/<ExternalLinkIcon mx="2px" />
               </Link>
           </ListItem>
         </List>
