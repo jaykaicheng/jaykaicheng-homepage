@@ -3,7 +3,8 @@ import {
   Badge,
   Link,
   List,
-  ListItem
+  ListItem,
+  AspectRatio
 } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { 
@@ -24,23 +25,18 @@ const Work = () => {
         <Paragraph>
           A web application created to create mosaicked images without the use or need 
           of photoshop. This application is free and has no watermarks but the 
-          images are currently not permanently saved due to Heroku&apos;s ephemeral disk. 
+          images are currently not permanently saved due to Heroku&apos;s ephemeral disk and
+          new pricing and hosting policy. 
           This project is still under development as I am planning to rewrite the frontend 
           to allow for responsiveness, guest access, and AWS S3 for permanent images.
-          <br/>
-          Please use the login: 
-          <br/>
-          USERNAME: jay
-          <br/>
-          PASSWORD: 123
         </Paragraph>
         <List ml={4} my={4}>
-          <ListItem>
+          {/* <ListItem>
             <Meta>Website</Meta>
               <Link href='https://moker-test.herokuapp.com/'>
               https://moker-test.herokuapp.com/<ExternalLinkIcon mx="2px" />
               </Link>
-          </ListItem>
+          </ListItem> */}
           <ListItem>
             <Meta>Platform</Meta>
             <span>Windows/macOS/Linux</span>
@@ -63,10 +59,21 @@ const Work = () => {
           </ListItem>
         </List>
 
+        <AspectRatio maxW="640px" ratio={1.7} my={4}>
+        <iframe
+          src="https://www.youtube.com/embed/MrBvw--eS_Y?si=xHPB3imC69sUTcVE"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </AspectRatio>
+      
         <WorkImage src="/images/works/mosaicmaker_01.PNG" alt="Mosaic Maker Splash Page"/>
         <WorkImage src="/images/works/mosaicmaker_02.PNG" alt="Mosaic Maker Home Page" />
         <WorkImage src="/images/works/mosaicmaker_03.PNG" alt="Mosaic Maker Profile Page" />
         <WorkImage src="/images/works/mosaicmaker_04.PNG" alt="Mosaic Maker Image Page" />
+
       </Container>
     </Layout>
   )
