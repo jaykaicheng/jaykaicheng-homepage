@@ -1,12 +1,15 @@
 {
   "root": true,
-  "extends": "next",
+  "extends": [
+    "next/core-web-vitals",
+    "next"
+  ],
   "rules": {
     "no-unused-vars": [
       "error",
       {
         "argsIgnorePattern": "^_",
-	"varsIgnorePattern": "^_"
+        "varsIgnorePattern": "^_"
       }
     ]
   }

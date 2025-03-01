@@ -1,4 +1,6 @@
-import Head from 'next/head'
+'use client'
+
+import { usePathname } from 'next/navigation'
 import Navbar from '../navbar'
 import Footer from '../footer'
 import { 
@@ -6,19 +8,14 @@ import {
   Container 
 } from '@chakra-ui/react'
 
-const Main = ({ children, router}) => {
+const Main = ({ children }) => {
+  const pathname = usePathname()
+
   return (
     <Box as="main" pb={8}>
-      <Head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Jay Cheng - Homepage </title>
-      </Head>
-
-      <Navbar path={router.asPath} />
-
+      <Navbar path={pathname} />
       <Container maxW="container.md" pt={14}>
         {children}
-        
         <Footer />
       </Container>  
     </Box>

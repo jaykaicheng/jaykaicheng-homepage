@@ -1,3 +1,5 @@
+'use client'
+
 import Link from 'next/link'
 import Image from 'next/image'
 import { 
@@ -24,19 +26,17 @@ const Logo = () => {
 	const footPrintImg = `/images/footprint${useColorModeValue('', '-dark')}.png`
 
 	return (
-		<Link href="/">
-			<a>
-				<LogoBox>
-					<Image src={footPrintImg} width={20} height={20} alt="logo" />
-					<Text
-						color={useColorModeValue('gray.800', 'whiteAlpha.900')}
-						fontFamily='M PLUS Rounded 1c'
-						fontWeight="bold"
-						ml={3}>
-							Jay Cheng
-						</Text>
-				</LogoBox>
-			</a>
+		<Link href="/" style={{ textDecoration: 'none' }}>
+			<LogoBox>
+				<Image src={footPrintImg} width={20} height={20} alt="logo" />
+				<Text
+					color={useColorModeValue('gray.800', 'whiteAlpha.900')}
+					fontFamily='M PLUS Rounded 1c'
+					fontWeight="bold"
+					ml={3}>
+						Jay Cheng
+				</Text>
+			</LogoBox>
 		</Link>
 	)
 }

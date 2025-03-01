@@ -1,9 +1,11 @@
+'use client'
+
 import Logo from './logo'
 import NextLink from 'next/link'
 import {
   Container,
   Box,
-  Link,
+  Link as ChakraLink,
   Stack,
   Heading,
   Flex,
@@ -21,24 +23,39 @@ import { IoLogoGithub } from 'react-icons/io5'
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
   const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
-  return (
-    <NextLink href={href} passHref scroll={false}>
-      <Link
-       p={2}
-       bg={active ? 'glassTeal' : undefined}
-       color={active ? '#202023' : inactiveColor}
-       target={target}
-       {...props}
+  
+  if (target === '_blank') {
+    return (
+      <ChakraLink
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        p={2}
+        bg={active ? 'glassTeal' : undefined}
+        color={active ? '#202023' : inactiveColor}
+        {...props}
       >
         {children}
-      </Link>
+      </ChakraLink>
+    )
+  }
+
+  return (
+    <NextLink href={href} passHref legacyBehavior>
+      <ChakraLink
+        as="span"
+        p={2}
+        bg={active ? 'glassTeal' : undefined}
+        color={active ? '#202023' : inactiveColor}
+        {...props}
+      >
+        {children}
+      </ChakraLink>
     </NextLink>
   )
 }
 
-const Navbar = props => {
-  const { path } = props
-  
+const Navbar = ({ path, ...props }) => {
   return (
     <Box
       position="fixed"
@@ -74,16 +91,17 @@ const Navbar = props => {
           <LinkItem href="/works" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/resume.pdf"
-            alt="Jay Cheng Resume"
+          <LinkItem
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer" 
-            path={path}>
+            path={path}
+          >
             Resume
           </LinkItem>
           <LinkItem
-            target="_blank"
             href="https://github.com/jaykcheng/jaykcheng-homepage"
+            target="_blank"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -106,18 +124,19 @@ const Navbar = props => {
                 aria-label="Options" 
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+                <NextLink href="/" passHref legacyBehavior>
+                  <MenuItem as={ChakraLink}>About</MenuItem>
                 </NextLink>
-                <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
+                <NextLink href="/works" passHref legacyBehavior>
+                  <MenuItem as={ChakraLink}>Works</MenuItem>
                 </NextLink>
-                <NextLink href="/resume.pdf" passHref>
-                  <MenuItem as={Link}>Resume</MenuItem>
+                <NextLink href="/resume.pdf" passHref legacyBehavior>
+                  <MenuItem as={ChakraLink}>Resume</MenuItem>
                 </NextLink>
                 <MenuItem
-                  as={Link}
+                  as={ChakraLink}
                   href="https://github.com/jaykcheng/jaykcheng-homepage"
+                  target="_blank"
                 >
                   View Source
                 </MenuItem>
