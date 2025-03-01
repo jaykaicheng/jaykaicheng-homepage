@@ -1,3 +1,5 @@
+'use client'
+
 import NextLink from 'next/link'
 import { 
   Container, 
@@ -26,7 +28,7 @@ const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
 })
 
-const Home = () => {
+export default function Home() {
   return (
     <Layout>
       <Container>
@@ -37,7 +39,7 @@ const Home = () => {
           mb={6} 
           align="center"
         >
-      Hello, I&apos;m a software engineer based in Brooklyn, New York! Open to relocation!
+          Hello, I&apos;m a software engineer based in Brooklyn, New York! Open to relocation!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -81,16 +83,16 @@ const Home = () => {
           </Heading>
           <Paragraph>Jay graduated from the University at Buffalo and aspires to 
           work in Machine Learning. He has a passion for building software,
-          websites, cloud, DevOps,  and solving problems. Offline, he spends his time playing volleyball, pickleball,  and snowboarding. 
+          websites, cloud, DevOps, and solving problems. Offline, he spends his time playing volleyball, pickleball, and snowboarding. 
            In his senior year, he focused on web 
           development courses and created{' '} 
-            <NextLink href="/works/study-seeker">
-              <Link>Study Seeker</Link>
+            <NextLink href="/works/study-seeker" passHref legacyBehavior>
+              <Link as="span">Study Seeker</Link>
             </NextLink> 
           {' '}in Applied Human Computer Interaction and Interface Design (CSE370) and 
           {' '}
-            <NextLink href="/works/mosaic-maker">
-              <Link>Mosaic Maker</Link>
+            <NextLink href="/works/mosaic-maker" passHref legacyBehavior>
+              <Link as="span">Mosaic Maker</Link>
             </NextLink>
           {' '}in Software Engineering (CSE442). These projects inspired 
           him to pursue a career in web/software development. 
@@ -100,8 +102,8 @@ const Home = () => {
            part-time in Spring 2024.
           </Paragraph>
           <Box align="center" my={4}>
-            <NextLink href="/works">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <NextLink href="/works" passHref legacyBehavior>
+              <Button as="a" rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My portfolio
               </Button>
             </NextLink>
@@ -188,7 +190,4 @@ const Home = () => {
       </Container>
     </Layout>
   )
-}
-
-export default Home
-export { getServerSideProps } from '../components/chakra'
+} 
