@@ -1,8 +1,7 @@
 'use client'
 
 import NextImage from 'next/image'
-import { Box, Text, LinkBox, LinkOverlay, useColorModeValue } from '@chakra-ui/react'
-import { Global } from '@emotion/react'
+import { Badge, Box, Text, useColorModeValue } from '@chakra-ui/react'
 
 export const Title = ({ children }) => (
   <Box>
@@ -35,7 +34,7 @@ export const WorkImage = ({ src, alt }) => (
 )
 
 export const Meta = ({ children }) => (
-  <Text as="span" fontWeight="bold" mr={2} color={useColorModeValue('gray.800', 'whiteAlpha.900')}>
-    {children}:
-  </Text>
+  <Badge colorScheme="green" mr={2}>
+    {children}
+  </Badge>
 )
