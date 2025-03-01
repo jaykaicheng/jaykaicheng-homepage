@@ -1,6 +1,6 @@
 'use client'
 
-import { Container, Badge, Link, List, ListItem, AspectRatio, useColorModeValue } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem, AspectRatio, useColorModeValue, Text } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../../components/work'
 import Layout from '../../../components/layouts/article'
@@ -17,8 +17,16 @@ export default function Work() {
     <Layout title="Mosaic Maker">
       <Container>
         <Title>
-          Mosaic Maker <Badge colorScheme="teal">2023</Badge>
+          Mosaic Maker <Badge colorScheme={badgeColor}>2023</Badge>
         </Title>
+        <Text>
+          A web application created to create mosaicked images without the use or need 
+          of photoshop. This application is free and has no watermarks but the 
+          images are currently not permanently saved due to Heroku&apos;s ephemeral disk and
+          new pricing and hosting policy. 
+          This project is still under development as I am planning to rewrite the frontend 
+          to allow for responsiveness, guest access, and AWS S3 for permanent images.
+        </Text>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Platform</Meta>
@@ -31,6 +39,12 @@ export default function Work() {
           <ListItem>
             <Meta>Course</Meta>
             <span>CSE 442 - Software Engineering</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Figma</Meta>
+              <Link href='https://www.figma.com/file/hwsv7GxeNLCfVk1SKyU8RT/Mosaic' target="_blank" color={useColorModeValue('blue.500', 'teal.200')}>
+                https://www.figma.com/Mosaic-Maker<ExternalLinkIcon mx="2px" />
+              </Link>
           </ListItem>
           <ListItem>
             <Meta>Source</Meta>

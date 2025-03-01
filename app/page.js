@@ -98,8 +98,8 @@ export default function Home() {
           him to pursue a career in web/software development. 
           He is currently contracted as a Software Engineer at {' '}
           <Link href="https://lightpathfiber.com/" target="_blank">Lightpath</Link> after interning and 
-          is working on his AWS and Azure certification. He is starting his Masters in Computer Science at Georgia Tech
-           part-time in Spring 2024.
+          is working on his AWS and Azure certification. He is currently pursuing his Masters in Computer Science at Georgia Tech
+           part-time starting in Spring 2024.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works" passHref legacyBehavior>
