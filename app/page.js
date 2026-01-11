@@ -115,14 +115,6 @@ export default function Home() {
             Timeline
           </Heading>
           <BioSection>
-            <BioYear>1999</BioYear>
-            Born in Guangdong (广东), China.
-          </BioSection>
-          <BioSection>
-            <BioYear>2003</BioYear>
-            Immigrated to America.
-          </BioSection>
-          <BioSection>
             <BioYear>2017</BioYear>
             Graduated from Brooklyn Technical High School after majoring in Architecture.
           </BioSection>
@@ -137,11 +129,7 @@ export default function Home() {
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            Began contract work as a Software Engineer at Lightpath via TEKsystems.
-          </BioSection>
-          <BioSection>
-            <BioYear>2023</BioYear>
-            Naturalized as a US Citizen.
+            Began contract work as a Software Engineer at Lightpath.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
