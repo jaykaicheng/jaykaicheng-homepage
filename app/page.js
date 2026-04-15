@@ -157,7 +157,7 @@ export default function Home() {
                   colorScheme="teal" 
                   leftIcon={<Icon as={IoLogoGithub} 
                   />}>
-                    @jaykcheng
+                    @jaykaicheng
                 </Button>
               </Link>
             </ListItem>
@@ -168,7 +168,7 @@ export default function Home() {
                   colorScheme="teal" 
                   leftIcon={<Icon as={IoLogoLinkedin} 
                   />}>
-                    @jaykcheng
+                    @jaykaicheng
                 </Button>
               </Link>
             </ListItem>
