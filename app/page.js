@@ -39,7 +39,7 @@ export default function Home() {
           mb={6} 
           align="center"
         >
-          Hello, I&apos;m a software engineer based in Brooklyn, New York! Open to relocation!
+          Hello, I&apos;m a software engineer based in Jersey City, New Jersey!
         </Box>
 
         <Box display={{md:'flex'}}>
@@ -47,8 +47,7 @@ export default function Home() {
             <Heading as="h2" variant="page-title">
               Jay Cheng
             </Heading>
-            <p>Software Engineer <br/>
-            Aspiring Data Engineer/Scientist</p>
+            <p>Software Engineer</p>
           </Box>
           <Box 
             flexShrink={0} 
@@ -98,8 +97,8 @@ export default function Home() {
           him to pursue a career in web/software development. 
           He is currently contracted as a Software Engineer at {' '}
           <Link href="https://lightpathfiber.com/" target="_blank">Lightpath</Link> after interning and 
-          is working on his AWS and Azure certification. He is currently pursuing his Masters in Computer Science at Georgia Tech
-           part-time starting in Spring 2024.
+          is working in Salesforce development and Integrations. He is currently pursuing his Masters in Computer Science at Georgia Tech
+          part-time starting in Spring 2024.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works" passHref legacyBehavior>
@@ -129,7 +128,7 @@ export default function Home() {
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            Began contract work as a Software Engineer at Lightpath.
+            Began work as a Software Engineer at Lightpath.
           </BioSection>
           <BioSection>
             <BioYear>2024</BioYear>
@@ -152,7 +151,7 @@ export default function Home() {
           </Heading>
           <List>
             <ListItem>
-              <Link href="https://github.com/jaykcheng" target="_blank">
+              <Link href="https://github.com/jaykaicheng" target="_blank">
                 <Button 
                   variant="ghost" 
                   colorScheme="teal" 
@@ -163,7 +162,7 @@ export default function Home() {
               </Link>
             </ListItem>
             <ListItem>
-              <Link href="https://linkedin.com/in/jaykcheng" target="_blank">
+              <Link href="https://linkedin.com/in/jaykaicheng" target="_blank">
                 <Button 
                   variant="ghost" 
                   colorScheme="teal" 
